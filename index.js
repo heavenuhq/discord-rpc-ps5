@@ -2,7 +2,7 @@ const { Client } = require('discord.js-selfbot-v13');
 
 const client = new Client();
 
-client.once('ready', async () => {
+client.on('ready', async () => {
   console.log(`uhq`);
 
 
